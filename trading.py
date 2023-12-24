@@ -47,7 +47,7 @@ if __name__ == "__main__":
     BASE_URL = 'https://paper-api.alpaca.markets'  #paper trading URL for testing
 
     # Create API object
-    api = create_alpaca_api(XXXX,YYYY,ZZZZ)
+    api = create_alpaca_api(API_KEY,API_SECRET,BASE_URL)
 
     #Example trade
     execute_trade(api, 'SPY', 'buy', 1)
